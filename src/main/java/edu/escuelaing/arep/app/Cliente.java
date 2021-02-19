@@ -7,8 +7,18 @@ import java.net.URL;
 import java.net.URLConnection;
 import org.json.JSONObject;
 
+/**
+ * Cliente
+ * @author andre
+ *
+ */
 public class Cliente {
 
+	/**
+	 * Funcion encargada de realizar peticion como cliente
+	 * @param args
+	 * @throws IOException
+	 */
 	public static void main(String[] args) throws IOException {
 		
 

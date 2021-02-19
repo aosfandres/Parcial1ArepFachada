@@ -43,8 +43,6 @@ public class App {
 		JSONObject conversion = new JSONObject();
 
 		while ((read = entrada.readLine()) != null) {
-			System.out.println(read);
-			
 			String aux = read.replace("{\"El resultado de su operacion es\":", "").replace("}", "");
 			conversion.put("El resultado de su operacion es", aux);
 		}
